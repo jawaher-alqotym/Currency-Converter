@@ -1,0 +1,161 @@
+* {
+
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+
+    }
+
+.ContainerParent {
+
+       position: relative;
+
+    }
+
+.ContainerChildOne {
+
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 100%);
+        box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+        display: block;
+        height: 50vh;
+
+
+     }
+
+.ContainerChildTwo {
+
+       max-width: 50vw !important;
+       min-height: auto;
+       background: white;
+       padding-top: 2rem !important;
+       padding-bottom: 1.5rem !important;
+       box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+       position: absolute;
+       top: 60%;
+       right: 25%;
+
+
+    }
+
+.Border {
+
+       border: 1px solid white;
+
+    }
+
+h1.display-6 {
+
+       font-weight: 450;
+
+    }
+
+input[type=number] {
+
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-right: 0px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+
+
+   }
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+
+	  -webkit-appearance: none;
+
+    }
+
+
+select.custom-dropdown {
+
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: right;
+    background-image : url("https://img.icons8.com/material/45/737373/sort-down--v1.png");
+    background-size: 20px;
+    color: #696969;
+
+    }
+
+select.custom-dropdown:focus, select.custom-dropdown:hover,
+ input[type=number]:focus, input[type=number]:hover {
+
+      border-color: rgba(126, 239, 104, 0.6);
+      box-shadow: 0 0px 0px ;
+      outline: 0 none;
+      cursor: pointer;
+
+    }
+
+ .disabled-input, .disabled-input:focus, .disabled-input:hover {
+
+      border-color: #d2d2d2 !important;
+      box-shadow: none;
+      outline: 0 none;
+      cursor: context-menu !important;
+      background-color: white !important;
+
+    }
+
+/* hide the scrollbar */
+.no-scroll::-webkit-scrollbar {
+
+      display:none;
+
+     }
+
+.no-scroll::-moz-scrollbar {
+
+      display:none;
+
+     }
+
+.no-scroll::-o-scrollbar {
+
+      display:none;
+
+     }
+
+.no-scroll::-google-ms-scrollbar {
+
+      display:none;
+
+     }
+
+.no-scroll::-khtml-scrollbar {
+
+      display:none;
+
+     }
+
+/* on screen break point */
+@media only screen and (max-width: 1140px) {
+
+.ContainerChildTwo {
+
+       max-width: 80vw !important;
+       right: 10%;
+
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+.row>* {
+
+    width: auto !important;
+
+    }
+
+.ContainerChildTwo {
+
+       max-width: 100vw !important;
+
+    }
+
+}
