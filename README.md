@@ -1,7 +1,7 @@
 # Currency-Converter
 ![](https://img.shields.io/badge/React-18.2.0-lightblue)
 ### Features
-- Real-time Currency converting toolUsing Fixer API (https://apilayer.com/marketplace/fixer-api).
+- Real-time Currency converting tool using Fixer API (https://apilayer.com/marketplace/fixer-api).
 
 ## UI
 
